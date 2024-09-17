@@ -1,0 +1,18 @@
+<div class="table" *ngFor="let item of data">
+    <table class="styled-table">
+        <thead>
+            <tr>
+                <th>Authorised person</th>
+                <th>Phone No.</th>
+                <th>City</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr >
+                <td>{{item.name}}</td>
+                <td>{{item.phone}}</td>
+                <td>{{item.address.city}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
